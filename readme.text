@@ -1,0 +1,60 @@
+🚀 Building a Powerful Selenium TestNG Hybrid Framework for UI Automation 🖥️
+
+
+
+Excited to share my work on a comprehensive Selenium TestNG Hybrid Framework designed for scalable and efficient UI testing. Here’s a look at the key components that make it effective and maintainable:
+
+
+
+1. TestNG: 🧪 Provides a solid structure for test execution, along with powerful annotations, dependency control, and parallel execution capabilities.
+
+
+
+2. Page Object Model (POM) with Page Factory: 🧩 Utilizes the POM design pattern for cleaner and modular test scripts, enhancing readability and maintainability.
+
+
+
+3. Maven for Dependency Management: 📦 Manages dependencies and makes project setup seamless, while supporting CI/CD integration with Jenkins.
+
+
+
+4. Global Properties (`global.properties`): 🌐 Centralizes configuration settings for easy switching between environments (e.g., base URLs, credentials).
+
+
+
+5. JSON Data to List of HashMap: 📋 Implements data-driven testing by mapping JSON data into a `List<HashMap>` using `ObjectMapper`, allowing efficient parameterized test scenarios.
+
+
+
+6. Abstract & Base Class: 🔄 Facilitates method reusability for common actions, such as navigation, logging, and element handling.
+
+
+
+7. Extent Reports: 📊 Generates in-depth HTML reports with detailed logging and screenshots, providing better visibility into test execution results.
+
+
+
+8. TestNG Listeners & IRetryAnalyzer: 🔄 Uses listeners for enhanced logging, reporting, and failure handling, while `IRetryAnalyzer` manages flaky tests with automatic retries.
+
+
+
+9. TestNG XML File: 📄 Orchestrates test execution, allowing control over test suites, groups, and parallel execution.
+
+
+
+10. Jenkins Integration: 🛠️ Automates test execution with CI/CD, enabling continuous feedback and efficient reporting.
+
+
+
+
+🌟 This framework is designed to:
+
+- Improve scalability and maintainability for complex test suites.
+
+- Centralize data and configuration for better test management.
+
+- Enhance reporting and resilience with retry mechanisms for flaky tests.
+
+
+
+Building this kind of modular and reusable framework has been an exciting challenge, and I'm eager to explore further optimizations in automation!💡
